@@ -22,7 +22,7 @@ import { useState } from 'react';
 // Display game results
 
 const GameResults = (props) => {
-  const [matches, setMatches] = useState([
+  const [matches] = useState([
     {
     group: "A", referee: "Tobias Stieler",
     team1: { teamName: 'ajax', teamScore: 4, firstHalfScore: 3 },

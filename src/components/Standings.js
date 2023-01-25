@@ -72,6 +72,7 @@ const [records] = useState([
   return (
     <table>
       <thead>
+      <h1>Group A</h1>
         <tr>
           <th>Team</th>
           <th>Played</th>
